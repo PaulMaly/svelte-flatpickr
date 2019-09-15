@@ -1,0 +1,44 @@
+{
+    "name": "svelte-flatpickr",
+    "version": "1.0.0",
+    "description": "Flatpickr action and component for Svelte 3",
+    "svelte": "src/index.js",
+    "main": "index.js",
+    "module": "index.mjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup -c",
+        "prepublishOnly": "npm run build",
+        "prepublish": "npm run lint && npm run build",
+        "lint": "eslint src"
+    },
+    "files": [
+        "src",
+        "index.mjs",
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PaulMaly/svelte-flatpickr.git"
+    },
+    "keywords": [
+        "svelte"
+    ],
+    "author": "PaulMaly",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/PaulMaly/svelte-flatpickr/issues"
+    },
+    "homepage": "https://github.com/PaulMaly/svelte-flatpickr#readme",
+    "devDependencies": {
+        "eslint": "latest",
+        "eslint-plugin-import": "latest",
+        "rollup": "latest",
+        "rollup-plugin-svelte": "latest",
+        "rollup-plugin-node-resolve": "latest",
+        "svelte": "latest"
+    },
+    "dependencies": {
+        "imask": "latest"
+    }
+}
