@@ -18,7 +18,7 @@ Import `Flatpickr` component to your Svelte app. `options` prop will be passed t
 
 ```html
 <label>
-	<Flatpickr name="modified" {options} on:open={open} />
+  <Flatpickr name="modified" {options} on:open={open} />
 </label>
  
 <script>
@@ -39,7 +39,7 @@ OR import `flatpickr` action to get full control.
 
 ```html
 <label>
-	<input use:flatpickr={options} name="modified" on:open={open}>
+  <input use:flatpickr={options} name="modified" on:open={open}>
 </label>
  
 <script>

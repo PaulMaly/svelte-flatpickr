@@ -8,6 +8,7 @@
 	on:focus
 	on:blur
 	on:invalid
+	on:keydown
 	on:ready
 	on:open
 	on:close
@@ -16,6 +17,8 @@
 	on:day
 	on:month
 	on:year
+	on:destroy
+	on:position
 >
 
 <script>

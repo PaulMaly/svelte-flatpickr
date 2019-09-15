@@ -13,9 +13,12 @@ const events = [
 	[ 'close', 'onClose' ],
 	[ 'change', 'onChange' ],
 	[ 'update', 'onValueUpdate' ],
+	[ 'keydown', 'onKeyDown' ],
 	[ 'day', 'onDayCreate' ],
 	[ 'month', 'onMonthChange' ],
 	[ 'year', 'onYearChange' ],
+	[ 'destroy', 'onDestroy' ],
+	[ 'position', 'onPreCalendarPosition' ]
 ];
 
 export default function(node, options) {
